@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt — Mustermann SHK München</title>
+  <meta name="description" content="Kontaktieren Sie Mustermann SHK für ein kostenloses Angebot. Badsanierung, Fliesen & Renovierung in München.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="nav"><div class="nav__inner">
+    <a href="index.html" class="nav__logo"><span class="nav__logo-icon">MS</span><span class="nav__logo-text">Mustermann SHK</span></a>
+    <div class="nav__links">
+      <div class="nav__dropdown"><a href="#">Leistungen ▾</a><div class="nav__dropdown-menu"><a href="leistung-1.html">Badsanierung komplett</a><a href="leistung-2.html">Großformatfliesen</a><a href="leistung-3.html">Renovierung & Sanierung</a></div></div>
+      <a href="index.html#referenzen">Referenzen</a><a href="karriere.html">Karriere</a><a href="ueber-uns.html">Über uns</a>
+    </div>
+    <a href="kontakt.html" class="nav__cta active">Kostenloses Angebot</a>
+    <button class="nav__toggle" aria-label="Menü"><span></span><span></span><span></span></button>
+  </div></nav>
+
+  <div class="page-header">
+    <p class="section__label" style="color: var(--accent);">Kontakt</p>
+    <h1>Kostenloses Angebot für <em>Ihr Projekt</em></h1>
+    <p>Erzählen Sie uns von Ihrem Vorhaben — wir melden uns schnell zurück.</p>
+  </div>
+
+  <section class="contact-section reveal">
+    <div class="contact__inner">
+      <div class="contact__info">
+        <h2>Mustermann SHK GmbH</h2>
+        <p>Rufen Sie uns an, schreiben Sie uns oder nutzen Sie das Kontaktformular. Wir beraten Sie persönlich und unverbindlich.</p>
+        <ul class="contact__checklist">
+          <li>Kostenlose & unverbindliche Beratung</li>
+          <li>Antwort innerhalb von 24 Stunden</li>
+          <li>Faire & transparente Preise</li>
+          <li>Meister-Qualität garantiert</li>
+        </ul>
+        <div class="contact__channels">
+          <h3>Direkter Kontakt:</h3>
+          <div class="contact__channel">📍 Musterstraße 24, 80331 München</div>
+          <div class="contact__channel">📞 <a href="tel:+4989123456">089 / 123 456</a></div>
+          <div class="contact__channel">✉️ <a href="mailto:info@mustermann-shk.de">info@mustermann-shk.de</a></div>
+          <div class="contact__channel">💬 <a href="https://wa.me/4917612345678">Per WhatsApp schreiben</a></div>
+          <div class="contact__channel">🕐 Mo–Fr 7:00–17:00 Uhr</div>
+        </div>
+      </div>
+      <div class="contact__form-card">
+        <form class="contact__form" action="#" method="POST">
+          <div class="form-row">
+            <div><label for="name">Name *</label><input type="text" id="name" name="name" required placeholder="Ihr Name"></div>
+            <div><label for="phone">Telefon *</label><input type="tel" id="phone" name="phone" required placeholder="Für Rückfragen"></div>
+          </div>
+          <label for="email">E-Mail *</label>
+          <input type="email" id="email" name="email" required placeholder="ihre@email.de">
+          <label for="service">Gewünschte Leistung</label>
+          <select id="service" name="service"><option value="">Bitte wählen</option><option value="badsanierung">Badsanierung</option><option value="grossformat">Großformatfliesen</option><option value="renovierung">Renovierung</option><option value="sonstiges">Sonstiges</option></select>
+          <label for="message">Ihre Nachricht *</label>
+          <textarea id="message" name="message" required placeholder="Beschreiben Sie Ihr Projekt..."></textarea>
+          <button type="submit" class="btn btn--primary btn--lg">Nachricht senden →</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__grid">
+      <div class="footer__brand"><div class="footer__logo"><span class="footer__logo-icon">MS</span><span class="footer__logo-text">Mustermann SHK</span></div><p>Meisterbetrieb für Fliesenarbeiten in München.</p></div>
+      <div><h4>Leistungen</h4><div class="footer__links"><a href="leistung-1.html">Badsanierung</a><a href="leistung-2.html">Großformatfliesen</a><a href="leistung-3.html">Renovierung</a></div></div>
+      <div><h4>Unternehmen</h4><div class="footer__links"><a href="ueber-uns.html">Über Uns</a><a href="karriere.html">Karriere</a><a href="kontakt.html">Kontakt</a></div></div>
+      <div class="footer__contact"><h4>Kontakt</h4><p>Musterstraße 24, 80331 München</p><p><a href="tel:+4989123456">089 / 123 456</a></p></div>
+    </div>
+    <div class="footer__bottom"><span>&copy; 2026 Mustermann SHK GmbH</span><div class="footer__legal"><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></div></div>
+  </footer>
+  <div class="cookie-banner"><p>Diese Website verwendet Cookies. <a href="datenschutz.html">Mehr erfahren</a></p><button class="btn btn--accent cookie-accept">Akzeptieren</button></div>
+  <script src="js/main.js"></script>
+</body>
+</html>
